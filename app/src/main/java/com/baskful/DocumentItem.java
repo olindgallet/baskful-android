@@ -32,7 +32,7 @@ public class DocumentItem extends Fragment {
         binding.buttonFirst.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                NavHostFragment.findNavController(FirstFragment.this)
+                NavHostFragment.findNavController(DocumentItem.this)
                         .navigate(R.id.action_FirstFragment_to_SecondFragment);
             }
         });

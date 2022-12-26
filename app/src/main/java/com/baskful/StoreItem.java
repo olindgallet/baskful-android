@@ -9,11 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
-import com.baskful.databinding.FragmentSecondBinding;
+import com.baskful.databinding.StoreItemBinding;
 
 public class StoreItem extends Fragment {
 
-    private FragmentSecondBinding binding;
+    private StoreItemBinding binding;
 
     @Override
     public View onCreateView(
@@ -21,7 +21,7 @@ public class StoreItem extends Fragment {
             Bundle savedInstanceState
     ) {
 
-        binding = FragmentSecondBinding.inflate(inflater, container, false);
+        binding = StoreItemBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
     }
